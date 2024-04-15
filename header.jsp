@@ -4,16 +4,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
-<link href="style.css" rel="stylesheet">
+<title>header</title>
 </head>
 <body>
-   <header> (과정평가형 정보처리산업기사) 자율좌석예약 프로그램 ver 2021-08 </header>
-   <nav>
-      <a href="insert.jsp"> 근무좌석예약 </a> 
-      <a href="list.jsp"> 좌석예약조회 </a> 
-      <a href="date.jsp"> 근무일수집계 </a> 
-      <a href="index.jsp"> 홈으로 </a>
-   </nav>
+<header>
+	쇼핑몰 회원관리
+</header>
+
+<nav> 
+	<a href = "insert.jsp">회원등록</a>
+	<a href = "list.jsp">회원목록 조회/수정</a>
+	<a href = "salary.jsp">회원매출조회</a>
+	<a href = "index.jsp">홈으로</a>
+</nav>
 </body>
 </html>
