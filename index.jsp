@@ -1,28 +1,22 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>index</title>
-<link rel="stylesheet" href="style.css">
+<title>Insert title here</title>
+<link href = "style.css" rel = "stylesheet">
 </head>
-
 <body>
 <jsp:include page="header.jsp"></jsp:include>
-<h2>쇼핑몰 회원 관리 프로그램</h2>
 <section>
-<h2><b>정처산기에요</b></h2>
-<br><br>
-<p>말이많아<br>
-이래저리<br>
-Korean ayo<br>
-blabla
-
-
-</p>
+<h2>CPQ</h2>
+<p>
+내용내용<br>
+내용내용<br>
+</p> 
 </section>
 
-</body>
 <jsp:include page="footer.jsp"></jsp:include>
+</body>
 </html>

@@ -8,7 +8,7 @@
 </head>
 <body>
 <footer>
-	나는 부소마출신이잊롱
+푸터에요
 </footer>
 </body>
 </html>

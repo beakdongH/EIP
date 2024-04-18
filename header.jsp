@@ -4,18 +4,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>header</title>
+<title>Insert title here</title>
 </head>
 <body>
 <header>
-	쇼핑몰 회원관리
+헤더이요요요요 202108
 </header>
+<nav>
+<a href = "list.jsp">후보조회</a>
+<a href = "vote.jsp">투표하기</a>
+<a href = "list2.jsp">투표검수조회</a>
+<a href = "rank.jsp">후보자등수</a>
 
-<nav> 
-	<a href = "insert.jsp">회원등록</a>
-	<a href = "list.jsp">회원목록 조회/수정</a>
-	<a href = "salary.jsp">회원매출조회</a>
-	<a href = "index.jsp">홈으로</a>
 </nav>
 </body>
 </html>
