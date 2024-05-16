@@ -4,17 +4,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
 <title>Insert title here</title>
-<link href="style.css" rel="stylesheet">
 </head>
 <body>
-   <header> (과정평가형 정보처리산업기사)학생 성적처리 프로그램 ver 2022-10 </header>
-   <nav>
-      <a href="student.jsp"> 학생정보현황 </a> 
-      <a href="insert.jsp"> 성적입력 </a> 
-      <a href="score.jsp"> 성적현황 </a> 
-      <a href="subject.jsp"> 과목별성적 </a> 
-      <a href="index.jsp"> 홈으로 </a>
-   </nav>
+<header>202301 정보처리산업기사 주차장</header>
+
+
+<nav>
+	<a href = "insert.jsp">차량입차</a>
+	<a href = "list.jsp">차량조회</a>
+	<a href = "insert2.jsp">차량출차</a>
+	<a href = "index.jsp">홈으로</a>
+</nav>
 </body>
 </html>

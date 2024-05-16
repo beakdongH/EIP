@@ -4,12 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>header</title>
 <link rel="stylesheet" href="style.css">
+<title>Insert title here</title>
 </head>
 <body>
-	<footer>
-		HRDKOREA Copyrightⓒ2021 All rights reserved Human Resources Development Service of Korea
-	</footer>
+<footer>푸터에요</footer>
 </body>
 </html>
