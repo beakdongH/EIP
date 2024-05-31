@@ -1,24 +1,35 @@
+<%@ include file = "db.jsp" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ include file="db.jsp" %>
-
+   
 <%
-request.setCharacterEncoding("UTF-8");
-String car_numbre = request.getParameter("car_number");
-String car_name = request.getParameter("car_name");
-String owner_name = request.getParameter("owner_name");
-String location = request.getParameter("location");
-String enterance_time = request.getParameter("enterance_time");
-String departure_time = request.getParameter("departure_time");
-String hourly_parking_fee = request.getParameter("hourly_parking_fee");
+	request.setCharacterEncoding("UTF-8");
 
-PreparedStatement pstmt = con.prepareStatement(sql);
-
-try{
-	String sql = "insert into tbl_parking_202301 values(?,?,?,?,?,?)";
-}
-catch(Exception e){
-	e.printStackTrace();
-}
-
+	String no = request.getParameter("no");
+	String name = request.getParameter("name");
+	String vno = request.getParameter("vno");
+	String vtime = request.getParameter("vtime");
+	String vplace = request.getParameter("vplace");
+	String r_check = request.getParameter("r_check");
+	
+	try{
+		String sql ="INSERT INTO TBL_VOTE_202005 values(?, ?, ?, ?, ?, ?)";
+		PreparedStatement pstmt = con.prepareStatement(sql);
+		
+		pstmt.setString(1, no);
+		pstmt.setString(2, name);
+		pstmt.setString(3, vno);
+		pstmt.setString(4, vtime);
+		pstmt.setString(5, vplace);
+		pstmt.setString(6, r_check);
+		
+		pstmt.executeUpdate();	
+		
+		con.commit();
+	}
+	catch(Exception e){
+		e.printStackTrace();
+	}
 %>
+	
+<jsp:forward page="index.jsp"></jsp:forward>

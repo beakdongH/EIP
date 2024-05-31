@@ -4,18 +4,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
 <title>Insert title here</title>
 </head>
 <body>
-<header>202301 정보처리산업기사 주차장</header>
-
-
+<header>
+물류창고 프로그램
+</header>
 <nav>
-	<a href = "insert.jsp">차량입차</a>
-	<a href = "list.jsp">차량조회</a>
-	<a href = "insert2.jsp">차량출차</a>
-	<a href = "index.jsp">홈으로</a>
+<a href = "list.jsp">후보조회</a>
+<a href = "vote.jsp">투표하기</a>
+<a href = "list2.jsp">투표검수조회</a>
+<a href = "rank.jsp">후보자등수</a>
+<a href = "index.jsp">홈으로</a>
+
 </nav>
 </body>
 </html>

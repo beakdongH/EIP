@@ -4,10 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
 <title>Insert title here</title>
 </head>
 <body>
-<footer>푸터에요</footer>
+<footer>
+푸터에요
+</footer>
 </body>
 </html>
