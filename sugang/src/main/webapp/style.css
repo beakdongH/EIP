@@ -1,0 +1,41 @@
+@charset "UTF-8";
+header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 70px;
+	font-size:40px;
+	background-color: orange;
+	text-align: center;
+	
+}
+
+nav{
+	position: fixed;
+	left: 0px;
+	top: 70px;
+	width:100%;
+	height: 30px;
+	background-color: pink;
+}
+
+section{
+	position: fixed;
+	left:0px;
+	top:100px;
+	width:100%;
+	height: 100%;
+	background-color: lightgray;
+}
+
+footer{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 30px;
+	background-color: orange;
+	text-align: center;
+	
+}
