@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+header{
+	position:fixed;
+	top:0px;
+	left:0px;
+	text-align: center;
+	height: 40px;
+	background-color:#8080ff;
+	width:100%;
+	line-height: 40px;
+}
+
+nav{
+	position:fixed;
+	top:40px;
+	text-align: center;
+	height: 20px;
+	width: 100%;
+	background-color: #ff80ff;
+	left:0px;
+	line-height: 20px;
+}
+
+section{
+	position: fixed;
+	top:60px;
+	background-color: #f9caff;
+	height: 100%;
+	width:100%;
+	left:0px;
+	
+}
+
+footer{
+	position:fixed;
+	bottom: 0px;
+	text-align:center;
+	width: 100%;
+	background-color:#8080ff;
+}
+
+table{
+	margin: 40px auto;
+	text-align: left;
+	width:60%;
+}
+
+section > h2{
+	text-align: center;
+}
